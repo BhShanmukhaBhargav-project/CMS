@@ -18,7 +18,7 @@ function PlanDetails() {
         )
     }
     return (
-        <div className = 'outer2'>{
+        <div className = 'outer2'><h1>Plan Details</h1>{
             plan.map(value => {
                 return (
                     <div className='inner3'>

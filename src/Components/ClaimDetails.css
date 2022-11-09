@@ -1,7 +1,7 @@
-body {
+/* body {
     background: rgb(77, 188, 224);
     text-align: center;
-}
+} */
 
 .btn-success3 {
     display: block;
@@ -33,6 +33,8 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
   }
   
   .btn-success4:hover {
@@ -41,7 +43,7 @@ body {
   }
 
   .myUL1 {
-    border: 3px dotted white;
+    border: 3px dotted black;
     list-style-type: none;
     text-align: center;
     padding: 25px;

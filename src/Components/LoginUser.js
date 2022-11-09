@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './LoginUser.css'
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import '../App.css'
 
 LoginUser.propTypes = {
 
@@ -18,10 +18,10 @@ function LoginUser(props) {
     const [isSubmit, setIsSubmit] = useState(false);
 
     const handleChange = (e) => {
-        console.log(e.target);
+        //console.log(e.target);
         const { name, value } = e.target;
         setFormValues({ ...formValues, [name]: value });
-        console.log(formValues);
+        //console.log(formValues);
     };
 
     const validate = (values) => {
@@ -45,9 +45,9 @@ function LoginUser(props) {
     };
 
     useEffect(() => {
-        console.warn(formErrors);
+        //console.warn(formErrors);
         if (Object.keys(formErrors).length === 0 && isSubmit) {
-            console.warn(formValues);
+            //console.warn(formValues);
         }
     }, [formErrors])
 
@@ -61,14 +61,14 @@ function LoginUser(props) {
             username: formValues.un,
             password: formValues.pass,
         };
-        console.log(user)
+        //console.log(user)
         var response = await axios.post('http://localhost:4094/api/Member/Login', user
         ).catch(function (error) {
             if (error.response) {
                 alert("Invalid credentials")
             }
         })
-        console.log(response.status)
+        //console.log(response.status)
         if (response.status === 200) {
             sessionStorage.setItem("key", formValues.un)
             navigate("/MemberPlans")
@@ -79,13 +79,13 @@ function LoginUser(props) {
         <div className='loginuserdiv'>
             <h1>Login</h1>
             <form className="login-form" onSubmit={Login}>
-                <label className='form-control1'>Username</label>
+                <label className='form-control11'>Username</label>
                 <input className='form-control' type="text" name='un' placeholder='Enter Username' value={formValues.un} onChange={handleChange} />
                 <p style={{ color: 'red' }}>{formErrors.un}</p>
-                <label className='form-control1'>Password</label>
+                <label className='form-control11'>Password</label>
                 <input className='form-control' type="password" name='pass' placeholder='Enter Password' value={formValues.pass} onChange={handleChange} />
                 <p style={{ color: 'red' }}>{formErrors.pass}</p>
-                <button onClick={() => Login()} className='btn btn-success5'>Login</button>
+                <button onClick={(e) => Login(e)} className='btn btn-success5'>Login</button>
                 <br />
                 <a href='Register' className ='btn1'>New User? Register</a>
             </form>      

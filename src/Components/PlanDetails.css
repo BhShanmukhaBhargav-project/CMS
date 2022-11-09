@@ -1,9 +1,9 @@
-.outer2 {
+/* .outer2 {
   background: rgb(77, 188, 224);
-}
+} */
 
 .myUL4 {
-  border: 3px dotted white;
+  border: 3px dotted black;
   list-style-type: none;
   text-align: center;
   padding: 25px;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './SubmitClaims.css'
 import { useNavigate } from 'react-router-dom';
+import '../App.css'
 
 function SubmitClaims() {
     const navigate = useNavigate();
@@ -35,9 +36,9 @@ function SubmitClaims() {
         <div className='claimdiv'>
             <h1>Submit Claims</h1>
             <form onSubmit={submitClaim} className="claim-form">
-                <label className='form-control1'>Amount</label>
+                <label className='form-control11'>Amount</label>
                 <input className='form-control' onChange={changeamount} type="text" required />
-                <label className='form-control1'>ClaimDate</label>
+                <label className='form-control11'>ClaimDate</label>
                 <input className='form-control' onChange={changeclaimDate} type="date" required />
                 <button className='btn btn-success13'>Submit</button>
             </form>

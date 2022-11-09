@@ -9,7 +9,7 @@
   justify-content: space-around;
   align-items: centre;
   min-height: 40vh;
-  background: rgb(77, 188, 224);
+  /* background: rgb(77, 188, 224); */
   color: white;
 }
 
@@ -56,6 +56,11 @@
 .plan-form {
   margin-left: 300px;
   margin-top: 300px;
-  border: 3px dotted;
+  border: 3px dotted black;
   padding: 50px 100px;
+}
+
+.form-control11 {
+  color: black;
+  margin-left: 30px;
 }

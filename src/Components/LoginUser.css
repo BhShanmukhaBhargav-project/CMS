@@ -1,14 +1,10 @@
-body {
-  background: rgb(77, 188, 224);
-}
-
 .loginuserdiv {
   display: flex;
   justify-content: space-around;
   align-items: centre;
   min-height: 40vh;
-  background: rgb(77, 188, 224);
-  color: white;
+  /* background: rgb(77, 188, 224);
+  color: white; */
 }
 
 .form-control {

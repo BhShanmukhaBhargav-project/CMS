@@ -38,7 +38,7 @@ function AddPlan(props) {
 
         <div className='plandiv'>
             <form onSubmit={Addplan} className="plan-form">
-                <label className='form-control1'>PlanId</label>
+                <label className='form-control11'>PlanId</label>
                 <input className='form-control' onChange={changeplanid} type="text" required />
                 <br />
                 <button className='btn btn-success1'>Enter</button>

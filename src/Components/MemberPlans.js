@@ -8,17 +8,17 @@ import './MemberPlans.css';
 function MemberPlans() {
     const navigate = useNavigate();
     const [plans, setplans] = useState([])
-    const [setmemberplans] = useState([])
+    const [memberplans ,setmemberplans] = useState([])
     var Id;
     const getplans = () => {
         var ss = sessionStorage.getItem("key")
-        console.log(ss)
+        //console.log(ss)
         if (ss === "Krantdarshi") {
             navigate("/ClaimDetails")
         }
         axios.get(`http://localhost:4094/api/Member/GetAllPlansByMember?username=${ss}`).then(
             (response) => {
-                console.log(response);
+                //console.log(response);
                 setplans(response.data)
                 setmemberplans(response.data.memberPlans)
             }
@@ -28,7 +28,7 @@ function MemberPlans() {
         <div className='outer1'>{
             plans.map(value => {
                 Id=value.id;
-                console.log(Id)
+                //console.log(Id)
                 sessionStorage.setItem("ID",Id)
                 return (
                     <div className='inner2'>

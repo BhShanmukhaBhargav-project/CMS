@@ -23,7 +23,7 @@ function ClaimDetails() {
         )
     }
     return (
-        <div >{
+        <div ><h1>Claim Details</h1>{
             claim.map(value => {
                 return (
                     <div className='inner1'>
