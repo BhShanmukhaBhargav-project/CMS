@@ -1,0 +1,61 @@
+.form-control {
+  margin-top: 5px;
+  align-items: centre;
+  width: auto;
+}
+
+.plandiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: centre;
+  min-height: 40vh;
+  background: rgb(77, 188, 224);
+  color: white;
+}
+
+.btn-success1 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left:70px;
+  margin-bottom: -20px;
+}
+
+.btn-success1:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.btn-success2 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 1px 1px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-success2:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.plan-form {
+  margin-left: 300px;
+  margin-top: 300px;
+  border: 3px dotted;
+  padding: 50px 100px;
+}

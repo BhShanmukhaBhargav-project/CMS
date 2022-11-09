@@ -1,0 +1,91 @@
+.outer2 {
+  background: rgb(77, 188, 224);
+}
+
+.myUL4 {
+  border: 3px dotted white;
+  list-style-type: none;
+  text-align: center;
+  padding: 25px;
+  width: 550px;
+  height:auto;
+  margin: 25px;
+  display:table;
+}
+
+.myUL4 li {
+  text-align: left;
+  font-size: 20px;
+  display: table-row;
+}
+
+.myUL4 li label {
+  display: table-cell;
+  width: 10%;
+}
+
+.myUL4 li span {
+  display: table-cell;
+  width: 40%;
+}
+
+.btn-success10 {
+  display: block;
+  width: 120px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: -20px;
+}
+
+.btn-success10:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.btn-success11 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 1px 1px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-success11:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.btn-success12 {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.btn-success12:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+

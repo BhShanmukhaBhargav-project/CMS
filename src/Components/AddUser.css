@@ -1,0 +1,61 @@
+.userdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: centre;
+  min-height: 40vh;
+  background: rgb(77, 188, 224);
+  color: white;
+}
+
+.add-form {
+  margin-right: 400px;
+  margin-top: 100px;
+  border: 3px dotted;
+  padding: 25px 100px;
+}
+
+.form-control {
+  margin-top: 5px;
+  align-items: centre;
+  margin-right: 25px;
+}
+
+.btn2 {
+  display: block;
+  width: 200px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+
+.btn2:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.btn-success15 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-left:80px;
+  margin-bottom: 10px;
+}
+
+.btn-success15:hover {
+  background-color: white;
+  color: #0a0a23;
+}

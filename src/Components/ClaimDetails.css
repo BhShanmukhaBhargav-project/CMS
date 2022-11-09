@@ -1,0 +1,111 @@
+body {
+    background: rgb(77, 188, 224);
+    text-align: center;
+}
+
+.btn-success3 {
+    display: block;
+    width: 75px;
+    height: 30px;
+    background: #0a0a23;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .btn-success3:hover {
+    background-color: white;
+    color: #0a0a23;
+  }
+
+  .btn-success4 {
+    display: block;
+    width: 110px;
+    height: 30px;
+    background: #0a0a23;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .btn-success4:hover {
+    background-color: white;
+    color: #0a0a23;
+  }
+
+  .myUL1 {
+    border: 3px dotted white;
+    list-style-type: none;
+    text-align: center;
+    padding: 25px;
+    width: 550px;
+    height:auto;
+    margin: 25px;
+    display:table;
+}
+
+.myUL1 li {
+    text-align: left;
+    font-size: 20px;
+    display: table-row;
+}
+
+.myUL1 li label {
+    display: table-cell;
+    width: 30%;
+}
+
+.myUL1 li span {
+    display: table-cell;
+    width: 40%;
+}
+
+.btn-success16 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 2px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  
+}
+.btn-success16:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+.btn-success17 {
+  display: block;
+  width: 75px;
+  height: 30px;
+  background: #0a0a23;
+  padding: 1px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  float: right;
+}
+.btn-success17:hover {
+  background-color: white;
+  color: #0a0a23;
+}
+
+.Align {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
